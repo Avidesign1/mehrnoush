@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+:root {
+  /* colors:*/
+  --c1: #DFD4D5;
+  --c2: #977175;
+  --c3: #5B3035;
+  --c4: #450B12;
+  --c5: #310006;
+
+  /* colors:*/
+  
+}
+
+
+
+
+
+body { 
+    background-color: hsl(355, 15%, 85%);
+    color: #977175;
+    font-family: Georgia, 'Times New Roman', Times, serif,Arial, Helvetica, sans-serif;
+    font-style: none;
+    font-size: 1em;
+    line-height: 2;
+    text-align: justify;
+    text-decoration:none;
+}
+h1 {
+  color: rgb(109, 34, 30);
+  background-color: none;
+  font-size: 2.5em; 
+  font-weight: 500;
+}
+footer {
+  color: #310006;
+}
+
+a { 
+  color: #310006;
+  text-decoration: none;
+}
