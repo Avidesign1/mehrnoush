@@ -22,12 +22,12 @@ I gave feedback to (then list the projects/repositories, for example...):
 ## Styling Guide
 
 ### Colours
-<https://coolors.co/0c0a0a-3f434e-dddadf-68a01b-3a721e>
-- ![#DFD4D5](https://placehold.it/15/0C0A0A/000000?text=+) `#DFD4D5`
-- ![#977175](https://placehold.it/15/3F434E/000000?text=+) `#977175`
-- ![#5B3035](https://placehold.it/15/DDDADF/000000?text=+) `#5B3035`
-- ![#450B12](https://placehold.it/15/68A01B/000000?text=+) `#450B12`
-- ![#310006](https://placehold.it/15/3A721E/000000?text=+) `#310006`
+<https://coolors.co/dfd4d5-977175-5b3035-450b12-310006>
+$color1: rgba(223, 212, 213, 1);
+$color2: rgba(151, 113, 117, 1);
+$color3: rgba(91, 48, 53, 1);
+$color4: rgba(69, 11, 18, 1);
+$color5: rgba(49, 0, 6, 1);
 
 ### Fonts
 <https://fonts.googleapis.com/css?family=Roboto&display=swap>
