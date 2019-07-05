@@ -3,8 +3,8 @@
 
   <head>
     <meta charset="utf-8">
-    <title>My website | Mehrnoush</title>
-    <meta name="description" content="This is a Website...">
+    <title>My Article</title>
+    <meta name="description" content="Articles">
     <meta name="author" content="Mehrnoush">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/reset.css">
@@ -18,23 +18,34 @@
       Student#:     101231552
       Email:        mehrnoush.mohammadi@georgebrown.ca
       Subbmitted:   June 22,2019
-      Notes:        My Article didn't have any codes so I added the codes that should be include               in our HTML in a textarea.
+      Notes:        Hi
+      I have reviewed the appropriate checklist before submitting this work
     -->
 
 
-    <Header>
+    <header class="top-bar">
+      <nav>
+      <section class="logo">
+         <h1>Journals</h1>
+         <form>
+          <input type="text" placeholder="Search">
+          <button>Go!</button>
+         </form>
+      </section>
+        <ul class="main-menu">
+          <li class="menu-bar"><a href="#">Home</a></li>
+          <li class="menu-bar active"><a href="#">Journals</a></li>
+          <li class="menu-bar"><a href="#">Magazines</a></li>
+          <li class="menu-bar"><a href="#">Newspapers</a></li>
+          <li class="menu-bar"><a href="#">About Us</a></li>
+        </ul>
+      </nav>
 
-      <form>
-        <label for="">Search</label>
-        <input type="text" name="search">
-        <button>Go!</button>
-      </form>
-
-    </Header>
+    </header>
 
     <main>
-     
-      <h1>Analytical Essay <small>by Mehrnoush</small></h1>
+    
+      <h2>Pricing Pixels Analytical Essay</h2>
 
       <figure>
         <img src="https://images.complex.com/complex/image/upload/c_limit,dpr_auto,q_90,w_720/fl_lossy,pg_1/vwtmtnqbp4bldaq4wptn.jpg" alt="Image1"> <figcaption>Pricing Pixels</figcaption>
@@ -48,15 +59,14 @@
         <section>
           <p> The author effectively gave examples of commercial auctions and exhibitions to inform readers of how the prices of digital art were surprisingly unpredictable even for artists. The author’s study found the following: </p>
 
-          <blockquote cite="https://www.complex.com/style/2014/01/digital-art-essay">That Howard and her artists drew a crowd wasn’t surprising, but the final results of the auction may have come as a shock to those who still believe digital art doesn’t have a place in the wider art market. The 17 lots that went to the block sold for a grand total of $90,600. <a href="https://www.complex.com/style/2014/01/digital-art-essay">(Chayka, <q>Pricing Pixels…</q>)</a></blockquote>
+          <blockquote cite="https://www.complex.com/style/2014/01/digital-art-essay">That Howard and her artists drew a crowd wasn’t surprising, but the final results of the auction may have come as a shock to those who still believe digital art doesn’t have a place in the wider art market. The 17 lots that went to the block sold for a grand total of $90,600. <a href="https://www.complex.com/style/2014/01/digital-art-essay">(Chayka, <q class="quotes">Pricing Pixels…</q>)</a></blockquote>
 
           <p>For Howard and her artists selling a digital art with a high price was a dream but by using <a href="https://paddleson.tumblr.com/about"> Paddles On!</a>they could sell their items even more than they could imagine. They weren’t surprised by the crowd; however, they were not looking for making a reputation for themselves and waiting for the final results. They successfully sold their digital artwork by using <a href="https://paddleson.tumblr.com/about"> Paddles On!</a>. The limitation of selling digital art appeared to be due to a lack of easy-to-access equipment and knowledge about the collector, however everything changed by these commercial auctions.</p>
         </section>
 
         <section>
-          <p>He mentioned people's experiences in selling their digital art including their point of view and an explanation of how the digital market is quickly changing. The author’s research found the following:</p>
-
-          <blockquote cite="https://www.complex.com/style/2014/01/digital-art-essay"><em>Rafael Rozendaal</em> was grateful for the auction’s efforts toward building a market, though he was initially nervous—the space and the context “felt very formal.” “It's important to create interest and economy so I can be a fulltime dreamer,” he explained. <a href="https://www.complex.com/style/2014/01/digital-art-essay">(Chayka, <q>Pricing Pixels…</q>)</a></blockquote>
+          <p>He mentioned people's experiences in selling their digital art including their point of view and an explanation of how the digital market is quickly changing. The author’s research found the following:
+          <blockquote cite="https://www.complex.com/style/2014/01/digital-art-essay"><em>Rafael Rozendaal</em> was grateful for the auction’s efforts toward building a market, though he was initially nervous—the space and the context “felt very formal.” “It's important to create interest and economy so I can be a fulltime dreamer,” he explained. <a href="https://www.complex.com/style/2014/01/digital-art-essay">(Chayka, <q>Pricing Pixels…</q>)</a></blockquote></p>
 
           <p>Rafael thinks that the auction was the reason for the price changes. He explains why he likes auctions and what his problem was. He didn’t like that the digital artwork was part of formal events, rather he believes that auctions create excitement in this market. Initially the context and the space were too formal for his taste however he believed commercial auctions and the auction economy would create excitement in this market.</p>
         </section>
@@ -76,26 +86,28 @@
         <section>
           <p>In conclusion, the digital market changed so fast that even the digital artists were surprised. Aside from bringing the auction towards a conventional process, this commercialization created an easier path for the digital artists to present their work. When the commercial auction like <a href="https://paddleson.tumblr.com/about"> Paddles On!</a> stepped on the market, digital artists can actually sell their digital artwork for a high price rather than evaluating their work based on opinions and comments of others. </p>
         </section>
+        <section>
+            <p><small>Updated 2019-06-22 <sup><time>14:53</time> </small></sup>by Mehrnoush</p>
+            </section>
       </article>
 
-      <section>
-      <p><small>Updated 2019-06-22 <sup><time>14:53</time></small></sup></p>
-      </section>
+      
 
       <!-- User Comments -->
       <section>
-        <h2>leave your comments here:</h2>
-        <form>
-          <textarea rows="4" cols="50"></textarea><br>
+        <h3>leave your comments here:</h3>
+        <div class="comment"> 
+          <textarea class="textarea" rows="4" cols="50"></textarea><br>
           <button>Submit</button>
-        </form>
+          <label for="textarea">500 Words</label>
+        </div>
       </section>
 
       <!-- Other Articles By Chyka -->
-      <section>
-        <h3>Some of the other articles by Kyle Chayka:</h3>
-
-        <ol>
+      <section >
+        <h4>Some of the other articles by Kyle Chayka:</h4>
+        
+        <ol class="more-articles">
           <li> <a href="https://www.complex.com/style/2015/09/dont-fret-portfolio-review">Portfolio Review: Don't Fret Livens Up the Streets of Chicago With His Art</a></li>
 
           <li><a href="https://www.complex.com/style/2015/07/the-best-outdoor-art-destinations-in-chicago/">The Best Outdoor Art Destinations in Chicago</a></li>
@@ -111,46 +123,18 @@
           <li><a href="https://www.complex.com/style/2015/05/the-greatest-digital-artists-of-the-21st-century/">The Greatest Digital Artists of the 21st Century</a></li>
 
           <li><a href="https://www.complex.com/style/2015/03/ryder-ripps-redeems-himself-with-alone-together-art-exhibition-nyc">URL to IRL: Controversial Artist Ryder Ripps Captures the Struggle of Existing on the Internet</a></li>
-
         </ol>
       </section>
 
       <!-- Codes -->
-      <section>
-        <samp>Some of the codes that used in html:</samp>
-        <pre>
-          <code>
-              <textarea rows="2" cols="30"> 
-                <a></a>
-                <h1></h1>
-                <h2></h2>
-                <h3></h3>
-                <ul></ul>
-                <ol></ol>
-                <li></li>
-                <a href=""></a>
-                <strong></strong>
-                <em></em>
-                <del></del>
-                <small></small>
-                <time></time>
-                <sub></sub>
-                <sup></sup>
-                <samp></samp>
-                <code></code>
-                <pre></pre>
-                <blockquote></blockquote>
-                <img src="" alt="">
-                <figure></figure>
-                <figcaption></figcaption>
-                <button></button>
-                <input type="text">
-                <label for=""></label>
-              </textarea>
-          </code>
-        </pre>
-      </section>
-
+      <pre>
+         <code>
+            var 
+            {
+              font: bold 15px "Courier", "Courier New", monospace;
+            }
+         </code>
+      </pre>
       
     </main>
 
@@ -158,13 +142,13 @@
 
     <footer>
       <!-- Social Media links -->
-      <ul>
+      <ul class="social-media">
           <li><a href="http://www.facebook.com"><img src='img/facebook.jpg' /></a></li>
           <li><a href="http://www.twitter.com"><img src='img/twitter.jpg' /></a></li>
           <li><a href="http://www.instagram.com"><img src='img/instagram.jpg' /></a></li>
       </ul>
 
-      <p>copy right 2019. &copy;</p>
+      <p>copy right 2019 <small>by Mehrnoush</small>  &copy;</p>
 
     </footer>
 
